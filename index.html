@@ -12,19 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <div class="header-title">
-          <h1>Living the simple life</h1>
-          <p>a blog exploring minimalism in life</p>
-        </div>
-        <nav>
-          <ul>
-            <li class="nav__active">home</li>
-            <li>about me</li>
-            <li>recent posts</li>
-          </ul>
-        </nav>
-      </header>
+      @@include('./components/header.html')
 
       <div class="main-container">
         <main>
@@ -45,7 +33,10 @@
           <div class="block-container block-container-about">
             <h3 class="block-container-header">about me</h3>
             <img src="images/about-me.jpg" alt="about me" />
-            <p>I find life better, and I'm happier, when things are nice and simple.</p>
+            <p>
+              I find life better, and I'm happier, when things are nice and
+              simple.
+            </p>
           </div>
           <div class="block-container">
             <h3 class="block-container-header">recent posts</h3>

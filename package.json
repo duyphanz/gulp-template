@@ -1,0 +1,16 @@
+{
+  "name": "simple-life",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phanduy12214/simple-life.git",
+  "author": "Duy Phan <duyphan@lecle.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp fileinclude filecopy"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "gulp-file-include": "^2.1.1"
+  }
+}
