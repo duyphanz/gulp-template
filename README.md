@@ -1,6 +1,6 @@
-# simple-life
+# gulp Template
 
-Build:
+Powered by https://gulpjs.com/docs/en/getting-started/quick-start
 
-Required env: https://gulpjs.com/docs/en/getting-started/quick-start
+
 
